@@ -16,7 +16,46 @@
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+                <div class = 'banner'>
+                    <img src = './images/logo.svg' alt = 'le logo booki'>
+                    <div class = 'banner-options'>
+                       <span class = 'option'> Hébergements </span>
+                       <span class = 'option'> Activités </span>                        
+                    </div>
+                </div>
+        </header>
+        <div class = 'search'>
+                <div class = 'subtitle'>
+                    <h2> Trouvez votre hébergement pour des vacances de rêve </h2>
+                    <p> En plein centre-ville ou en pleine nature </p> 
+                </div> 
+                <form class = 'search-form'>
+                    <img src = './images/searchIcon.svg' alt = 'Outil de recherche'>
+                    <input type="search" id="search" name="search" placeholder = 'Marseille, France'>
+                    <button type = 'submit'> Rechercher </button>        
+                </form>
+                <div class = 'filters'>
+                    <h3> Filtres </h3>
+                    <button class = 'filter'>
+                        <img src = './images/bill.svg' alt = 'billet'>
+                        Économique
+                    </button>
+                    <button class = 'filter'>
+                        <img src = './images/guy.svg' alt = 'personne'>                        
+                        Familial
+                    </button>
+                    <button class = 'filter'>                        
+                        <img src = './images/heart.svg' alt = 'coeur'>
+                        Romantique
+                    </button>
+                    <button class = 'filter'>
+                        <img src = './images/flame.svg' alt = 'flamme'>
+                        Nos pépites
+                    </button>
+                </div>
+            
+        </div>
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
