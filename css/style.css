@@ -36,8 +36,6 @@ a {
     margin-bottom: 35px;
 }
 /******************** Header ***************/
-.header {
-}
 .banner {
     display: flex;
     justify-content: space-between;
@@ -97,7 +95,7 @@ a {
     border: none;
     color: white;
     background: var(--main-color);
-    border: 3px solid var(--main-color !important);
+    border: 3px solid var(--main-color) !important;
     font-weight: bold;
 }
 
@@ -123,16 +121,10 @@ a {
 .filter:hover {
     background: var(--filter-bg-color);
 }
-.infobar {
-}
 .infobar img {
     vertical-align: middle;
     margin-right: 10px;
 }
-
-
-
-
 .section-title {
     margin: 0;
     font-size: 22px;
