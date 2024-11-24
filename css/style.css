@@ -300,7 +300,8 @@ button:hover {
     flex-direction: column;
 }
 .activites-cards h3 {
-    padding: 20px;
+    padding: 20px 19px;
+    margin: auto 0;
 }
 .activites-cards .card img {
     width: 100%;
