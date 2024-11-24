@@ -43,7 +43,7 @@ button:hover {
 .main {
     display: flex;
     flex-direction: column;
-    gap: 35px;;
+    gap: 35px;
 }
 /******************** Header ***************/
 .banner {
