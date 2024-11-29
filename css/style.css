@@ -46,11 +46,11 @@ button:hover {
     gap: 35px;
 }
 /******************** Header ***************/
-.banner {
+header {
     display: flex;
     justify-content: space-between;
 }
-.banner img {
+header img {
     margin-top: 10px;
 }
 .menu {
@@ -387,12 +387,12 @@ footer h3{
     header {
         padding:0;
     }
-    .banner {
+    header {
         position: relative;
         flex-direction: column;
         border-bottom: 2px solid var(--main-bg-color);
     }
-    .banner img {
+    header img {
         margin:auto;
         padding: 30px;
     }
@@ -491,5 +491,14 @@ footer h3{
     }
     footer ul {
         width: auto;
+    }
+
+
+    /****** Experimental sticky Header *****/
+    header {
+        position : sticky;
+        top:0;
+        background: white;
+        z-index: 10;
     }
 }
