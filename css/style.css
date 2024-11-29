@@ -53,15 +53,15 @@ button:hover {
 .banner img {
     margin-top: 10px;
 }
-.banner-options {
+.menu {
     display: flex;
     gap:68px;
 }
-.banner-options a {
+.menu a {
     display: block;
     padding-top : 7px;
 }
-.banner-options a:hover {
+.menu a:hover {
     color : var(--main-color);
     border-top : 2px solid var(--main-color);
 }
@@ -381,10 +381,10 @@ footer h3{
         flex-direction: column;
         gap:35px;
     }
-    .section {
+    section, footer {
         padding: 20px;
     }
-    header.section {
+    header {
         padding:0;
     }
     .banner {
@@ -396,20 +396,20 @@ footer h3{
         margin:auto;
         padding: 30px;
     }
-    .banner-options {
+    .menu {
         position: relative;
         gap:0px;
     }
-    .banner-options a{
+    .menu a{
         position: relative;
         width: 50%;
         padding-bottom: 17px;
         text-align: center;
     }
-    .banner-options a:hover {
+    .menu a:hover {
         border:none;
     }
-    .banner-options a:hover::after {
+    .menu a:hover::after {
         content: "";
         position: absolute;
         bottom: -2px;
