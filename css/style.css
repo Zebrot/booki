@@ -45,6 +45,7 @@ button:hover {
     flex-direction: column;
     gap: 35px;
 }
+
 /******************** Header ***************/
 header {
     display: flex;
@@ -381,7 +382,7 @@ footer h3{
         flex-direction: column;
         gap:35px;
     }
-    section, footer {
+    section, footer, .hebergements-and-populaires {
         padding: 20px;
     }
     header {
@@ -425,7 +426,7 @@ footer h3{
     .search-form input {
         width: 100%;
     }
-    .search-form button p {
+    .search-form button span {
         display: none;
     }
     .search-form button {
